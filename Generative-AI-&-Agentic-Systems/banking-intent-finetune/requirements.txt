@@ -1,0 +1,10 @@
+# Colab already has torch installed. Elsewhere, install torch for your GPU first.
+transformers>=4.46
+peft>=0.13
+trl>=0.20
+datasets>=2.20
+accelerate>=1.0
+pandas>=2.1
+scikit-learn>=1.4
+tabulate>=0.9
+huggingface_hub>=0.25

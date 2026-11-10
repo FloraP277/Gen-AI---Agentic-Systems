@@ -1,0 +1,18 @@
+name: zero_shot
+version: 1
+technique: zero-shot
+few_shot_per_intent: 0
+system: |
+  Classify a bank customer's message and route it.
+
+  Intents (use one exactly as written):
+  {intents}
+
+  Queues: {queues}
+
+  Reply with JSON only, no other text:
+  {{"intent": "<intent>", "queue": "<queue>", "needs_human": true or false}}
+  Set needs_human to true for security problems (lost or stolen cards, compromised accounts,
+  identity checks) and disputes (unrecognised or duplicate charges, refunds).
+user: |
+  Message: "{message}"

@@ -1,0 +1,25 @@
+{
+  "_note": "SYNTHETIC test fixture written for testing. Not official regulation text.",
+  "sections": {
+    "56.14100": {"part": "56", "title": "Safety defects; examination, correction and records", "paragraphs": [
+      "(a) Self-propelled mobile equipment to be used during a shift shall be inspected by the equipment operator before being placed in operation on that shift.",
+      "(b) Defects on any equipment, machinery, and tools that affect safety shall be corrected in a timely manner to prevent the creation of a hazard to persons.",
+      "(c) When defects make continued operation hazardous to persons, the defective items shall be taken out of service and tagged to prohibit further use until the defects are corrected."]},
+    "56.14101": {"part": "56", "title": "Brakes", "paragraphs": [
+      "(a) Self-propelled mobile equipment shall be equipped with a service brake system capable of stopping and holding the equipment with its typical load on the maximum grade it travels.",
+      "(b) Parking brakes shall be capable of holding the equipment with its typical load on the maximum grade it travels."]},
+    "56.14130": {"part": "56", "title": "Roll-over protective structures and seat belts", "paragraphs": [
+      "(a) Roll-over protective structures shall be provided on crawler tractors, graders, front-end loaders, and wheel tractors.",
+      "(b) Seat belts shall be provided and worn in equipment that is required to have roll-over protective structures."]},
+    "56.18002": {"part": "56", "title": "Examination of working places", "paragraphs": [
+      "(a) A competent person designated by the operator shall examine each working place at least once each shift before work begins for conditions that may adversely affect safety or health.",
+      "(b) A record that such examinations were conducted shall be kept by the operator for a period of one year."]},
+    "75.400": {"part": "75", "title": "Accumulation of combustible materials", "paragraphs": [
+      "Coal dust, including float coal dust deposited on rock-dusted surfaces, loose coal, and other combustible materials, shall be cleaned up and not be permitted to accumulate in active workings, or on diesel-powered and electric equipment therein."]},
+    "75.403": {"part": "75", "title": "Maintenance of incombustible content of rock dust", "paragraphs": [
+      "Where rock dust is required to be applied, it shall be distributed upon the top, floor, and sides of all underground areas and maintained so that the incombustible content of the combined coal dust, rock dust, and other dust shall be not less than 80 percent."]},
+    "75.512": {"part": "75", "title": "Electric equipment; examination, testing and maintenance", "paragraphs": [
+      "All electric equipment shall be frequently examined, tested, and properly maintained by a qualified person to assure safe operating conditions.",
+      "When a potentially dangerous condition is found on electric equipment, such equipment shall be removed from service until such condition is corrected."]}
+  }
+}

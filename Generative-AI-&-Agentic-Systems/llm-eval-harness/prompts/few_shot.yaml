@@ -1,0 +1,21 @@
+name: few_shot
+version: 1
+technique: few-shot
+few_shot_per_intent: 1
+system: |
+  Classify a bank customer's message and route it.
+
+  Intents (use one exactly as written):
+  {intents}
+
+  Queues: {queues}
+
+  Examples, one per intent:
+  {examples}
+
+  Reply with JSON only, no other text:
+  {{"intent": "<intent>", "queue": "<queue>", "needs_human": true or false}}
+  Set needs_human to true for security problems (lost or stolen cards, compromised accounts,
+  identity checks) and disputes (unrecognised or duplicate charges, refunds).
+user: |
+  Message: "{message}"

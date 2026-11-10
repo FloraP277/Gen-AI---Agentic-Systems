@@ -1,0 +1,25 @@
+text,label
+Still waiting on my card,card_arrival
+Has my card been sent yet?,card_arrival
+Where is my card?,card_arrival
+My card was stolen,lost_or_stolen_card
+Please freeze my lost card,lost_or_stolen_card
+Card missing after my trip,lost_or_stolen_card
+Transfer was declined and failed,failed_transfer
+Bank transfer failed again,failed_transfer
+Failed transfer to my landlord,failed_transfer
+Where can I see today's rate?,exchange_rate
+What rate for dollars to pounds?,exchange_rate
+Exchange rate for yen?,exchange_rate
+Refund for a cancelled order,request_refund
+Need a refund please,request_refund
+How long does a refund take?,request_refund
+Top up keeps failing,top_up_failed
+Why did my top up fail?,top_up_failed
+Adding funds failed,top_up_failed
+ATM fee question,cash_withdrawal_charge
+Cash withdrawal had a charge,cash_withdrawal_charge
+Why the fee for cash?,cash_withdrawal_charge
+Change PIN number,change_pin
+Update my card PIN,change_pin
+Where do I change my PIN?,change_pin

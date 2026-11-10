@@ -1,0 +1,13 @@
+# Step 2: take the best prompt from step 1 and sweep sampling settings,
+# repeating each 3 times to measure how consistent the answers are.
+# 3 temperatures x 2 top-p x 3 repeats x 100 messages = 1,800 API calls.
+name: settings
+model: gemini-2.5-flash
+prompts: [few_shot]          # replace with your best prompt from step 1
+temperatures: [0.0, 0.7, 1.2]
+top_ps: [1.0, 0.5]
+repeats: 3
+test_size: 100
+max_output_tokens: 512
+price_per_million_input: null
+price_per_million_output: null

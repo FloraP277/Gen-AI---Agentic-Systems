@@ -1,0 +1,12 @@
+numpy>=1.26
+pandas>=2.1
+pyarrow>=15
+tabulate>=0.9
+rank-bm25>=0.2.2
+sentence-transformers>=3.0
+google-genai>=1.0
+streamlit>=1.38
+psycopg[binary]>=3.1
+pgvector>=0.3
+# Optional, for the BERTScore metric:
+bert-score>=0.3.13

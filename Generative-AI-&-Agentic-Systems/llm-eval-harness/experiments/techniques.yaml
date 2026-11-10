@@ -1,0 +1,13 @@
+# Step 1: compare prompting techniques at fixed, deterministic settings.
+# 4 prompts x 300 messages = 1,200 API calls.
+name: techniques
+model: gemini-2.5-flash
+prompts: [zero_shot, few_shot, chain_of_thought, role]
+temperatures: [0.0]
+top_ps: [1.0]
+repeats: 1
+test_size: 300
+max_output_tokens: 512
+# Fill these in from the current Gemini pricing page to get cost per 1,000 messages:
+price_per_million_input: null
+price_per_million_output: null

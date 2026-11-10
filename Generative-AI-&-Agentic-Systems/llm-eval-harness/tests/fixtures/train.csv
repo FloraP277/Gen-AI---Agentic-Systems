@@ -1,0 +1,25 @@
+text,label
+When will my new card arrive?,card_arrival
+My card still hasn't come in the mail,card_arrival
+How long until the card gets delivered?,card_arrival
+I lost my card yesterday,lost_or_stolen_card
+Someone stole my wallet with my card,lost_or_stolen_card
+I can't find my card anywhere,lost_or_stolen_card
+My transfer failed,failed_transfer
+Why did the transfer not go through?,failed_transfer
+The payment to my friend failed,failed_transfer
+What exchange rate do you use?,exchange_rate
+How is the euro rate calculated?,exchange_rate
+Is your exchange rate fair?,exchange_rate
+How do I get a refund?,request_refund
+I want my money back for this purchase,request_refund
+Can I request a refund from a merchant?,request_refund
+My top up failed,top_up_failed
+Top-up didn't work,top_up_failed
+Couldn't add money to my account,top_up_failed
+Why was I charged for an ATM withdrawal?,cash_withdrawal_charge
+Fee on my cash withdrawal,cash_withdrawal_charge
+Charged for taking out cash,cash_withdrawal_charge
+How do I change my PIN?,change_pin
+I want a new PIN,change_pin
+Can I reset my PIN?,change_pin

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  SYNTHETIC SAMPLE for tests and offline demos. It copies the STRUCTURE of the
+  eCFR XML for Title 30 (DIV5 part, DIV6 subpart, DIV8 section, HEAD, P), but
+  the wording was written for testing. It is NOT the official text of any
+  regulation and must not be relied on.
+  Run the pipeline with dash-dash-parts to load the real regulations from eCFR.
+-->
+<ECFR>
+ <DIV1 N="30" TYPE="TITLE"><HEAD>Title 30—Mineral Resources (sample)</HEAD>
+  <DIV5 N="56" TYPE="PART"><HEAD>PART 56—SAMPLE SAFETY STANDARDS FOR SURFACE MINES</HEAD>
+   <DIV6 N="M" TYPE="SUBPART"><HEAD>Subpart M—Machinery and Equipment</HEAD>
+    <DIV8 N="56.14100" TYPE="SECTION"><HEAD>§ 56.14100 Safety defects; examination, correction and records.</HEAD>
+     <P>(a) Self-propelled mobile equipment to be used during a shift shall be inspected by the equipment operator before being placed in operation on that shift.</P>
+     <P>(b) Defects on any equipment, machinery, and tools that affect safety shall be corrected in a timely manner to prevent the creation of a hazard to persons.</P>
+     <P>(c) When defects make continued operation hazardous to persons, the defective items including self-propelled mobile equipment shall be taken out of service and placed in a designated area posted for that purpose, or a tag or other effective method of marking the defective items shall be used to prohibit further use until the defects are corrected.</P>
+    </DIV8>
+    <DIV8 N="56.14101" TYPE="SECTION"><HEAD>§ 56.14101 Brakes.</HEAD>
+     <P>(a) Self-propelled mobile equipment shall be equipped with a service brake system capable of stopping and holding the equipment with its typical load on the maximum grade it travels.</P>
+     <P>(b) Parking brakes shall be capable of holding the equipment with its typical load on the maximum grade it travels.</P>
+     <P>(c) All braking systems installed on the equipment shall be maintained in functional condition.</P>
+    </DIV8>
+    <DIV8 N="56.14107" TYPE="SECTION"><HEAD>§ 56.14107 Moving machine parts.</HEAD>
+     <P>(a) Moving machine parts shall be guarded to protect persons from contacting gears, sprockets, chains, drive, head, tail, and takeup pulleys, flywheels, couplings, shafts, fan blades, and similar moving parts that can cause injury.</P>
+     <P>(b) Guards shall not be required where the exposed moving parts are at least seven feet away from walking or working surfaces.</P>
+    </DIV8>
+    <DIV8 N="56.14130" TYPE="SECTION"><HEAD>§ 56.14130 Roll-over protective structures and seat belts.</HEAD>
+     <P>(a) Roll-over protective structures shall be provided on crawler tractors, graders, front-end loaders, and wheel tractors.</P>
+     <P>(b) Seat belts shall be provided and worn in equipment that is required to have roll-over protective structures.</P>
+    </DIV8>
+   </DIV6>
+   <DIV6 N="Q" TYPE="SUBPART"><HEAD>Subpart Q—Safety Programs</HEAD>
+    <DIV8 N="56.18002" TYPE="SECTION"><HEAD>§ 56.18002 Examination of working places.</HEAD>
+     <P>(a) A competent person designated by the operator shall examine each working place at least once each shift before work begins or as miners begin work in that place, for conditions that may adversely affect safety or health.</P>
+     <P>(b) A record that such examinations were conducted shall be kept by the operator for a period of one year, and shall be made available for review by the Secretary or an authorized representative.</P>
+    </DIV8>
+    <DIV8 N="56.18003" TYPE="SECTION"><HEAD>§ 56.18003 [Reserved]</HEAD>
+    </DIV8>
+   </DIV6>
+  </DIV5>
+  <DIV5 N="75" TYPE="PART"><HEAD>PART 75—SAMPLE SAFETY STANDARDS FOR UNDERGROUND COAL MINES</HEAD>
+   <DIV6 N="E" TYPE="SUBPART"><HEAD>Subpart E—Combustible Materials and Rock Dusting</HEAD>
+    <DIV8 N="75.400" TYPE="SECTION"><HEAD>§ 75.400 Accumulation of combustible materials.</HEAD>
+     <P>Coal dust, including float coal dust deposited on rock-dusted surfaces, loose coal, and other combustible materials, shall be cleaned up and not be permitted to accumulate in active workings, or on diesel-powered and electric equipment therein.</P>
+    </DIV8>
+    <DIV8 N="75.403" TYPE="SECTION"><HEAD>§ 75.403 Maintenance of incombustible content of rock dust.</HEAD>
+     <P>Where rock dust is required to be applied, it shall be distributed upon the top, floor, and sides of all underground areas of a coal mine and maintained in such quantities that the incombustible content of the combined coal dust, rock dust, and other dust shall be not less than 80 percent.</P>
+    </DIV8>
+   </DIV6>
+   <DIV6 N="F" TYPE="SUBPART"><HEAD>Subpart F—Electrical Equipment</HEAD>
+    <DIV8 N="75.512" TYPE="SECTION"><HEAD>§ 75.512 Electric equipment; examination, testing and maintenance.</HEAD>
+     <P>All electric equipment shall be frequently examined, tested, and properly maintained by a qualified person to assure safe operating conditions.</P>
+     <P>When a potentially dangerous condition is found on electric equipment, such equipment shall be removed from service until such condition is corrected.</P>
+     <P>A record of such examinations shall be kept and made available to an authorized representative of the Secretary and to the miners in such mine.</P>
+    </DIV8>
+   </DIV6>
+  </DIV5>
+ </DIV1>
+</ECFR>
