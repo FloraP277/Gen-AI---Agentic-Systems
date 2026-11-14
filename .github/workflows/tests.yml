@@ -1,0 +1,59 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - project: mine-safety-rag
+            requirements: requirements-test.txt
+          - project: mine-ops-agent
+            requirements: requirements.txt
+          - project: llm-eval-harness
+            requirements: requirements-test.txt
+          - project: banking-intent-finetune
+            requirements: requirements-test.txt
+          - project: skin-lesion-diffusion
+            requirements: requirements-test.txt
+    name: ${{ matrix.project }}
+    defaults:
+      run:
+        working-directory: "Generative-AI-&-Agentic-Systems/${{ matrix.project }}"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r ${{ matrix.requirements }} pytest
+      - run: pytest -v
+
+  regs-to-vectors:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_PASSWORD: postgres
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd pg_isready --health-interval 5s --health-timeout 5s --health-retries 10
+    defaults:
+      run:
+        working-directory: "Generative-AI-&-Agentic-Systems/regs-to-vectors"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt pytest
+      - run: pytest -v
+        env:
+          REGVEC_PG_DSN: postgresql://postgres:postgres@localhost:5432/postgres

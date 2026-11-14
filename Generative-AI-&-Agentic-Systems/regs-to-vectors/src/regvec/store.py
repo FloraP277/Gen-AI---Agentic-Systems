@@ -159,7 +159,9 @@ class PgVectorStore:
     def embeddings(self) -> np.ndarray:
         with self.conn.cursor() as cur:
             cur.execute("SELECT embedding FROM reg_chunks ORDER BY chunk_id")
-            return np.array([r[0] for r in cur.fetchall()], dtype=np.float32)
+            # pgvector >= 0.4 returns Vector objects; older versions return numpy arrays
+            return np.array([r[0].to_numpy() if hasattr(r[0], "to_numpy") else r[0]
+                             for r in cur.fetchall()], dtype=np.float32)
 
     def dense_search(self, vec, k: int = 5, strategy: str = "section", part: str | None = None):
         sql = ("SELECT chunk_id, section_id, part, strategy, position, text, n_words,"

@@ -1,6 +1,8 @@
 # Generative AI and Agentic Systems
 
-LLM projects covering retrieval-augmented generation, agents with tool calling, fine-tuning and evaluation. Several use U.S. mine safety data, which connects to my [Mine Safety Lakehouse](https://github.com/FloraP277/Data-Engineering/tree/main/data-engineering/mine-safety-lakehouse). Each project has its own README with an architecture diagram, setup steps and tests.
+[![tests](https://github.com/FloraP277/Gen-AI---Agentic-Systems/actions/workflows/tests.yml/badge.svg)](https://github.com/FloraP277/Gen-AI---Agentic-Systems/actions/workflows/tests.yml)
+
+LLM and generative AI projects covering retrieval-augmented generation, agents with tool calling, fine-tuning, evaluation and diffusion models. Several use U.S. mine safety data, which connects to my [Mine Safety Lakehouse](https://github.com/FloraP277/Data-Engineering/tree/main/data-engineering/mine-safety-lakehouse). Each project has its own README with an architecture diagram, setup steps, and tests that run automatically on every push.
 
 | Project | What it does | Stack | Status |
 | --- | --- | --- | --- |
@@ -9,6 +11,7 @@ LLM projects covering retrieval-augmented generation, agents with tool calling, 
 | [Mine Operations Agent with a Custom MCP Server](Generative-AI-%26-Agentic-Systems/mine-ops-agent) | AI analyst that writes mine safety reports by calling tools from my own Model Context Protocol server, compared with a fixed workflow | MCP Python SDK, Gemini tool calling, pydantic | Built and tested; comparison run pending |
 | [LLM Evaluation Harness](Generative-AI-%26-Agentic-Systems/llm-eval-harness) | Measures which prompting techniques and sampling settings work for routing bank customer messages to 77 intents with structured JSON output | Gemini 2.5 Flash, Hugging Face Datasets, scikit-learn | Built and tested; experiment run pending |
 | [Fine-Tuning a Small LLM for Banking Support](Generative-AI-%26-Agentic-Systems/banking-intent-finetune) | Fine-tunes Qwen2.5-0.5B with LoRA (SFT, then DPO) and compares it with prompting a larger model on accuracy, speed and cost | Transformers, PEFT, TRL, Google Colab | Built and tested; training run pending |
+| [Diffusion Data Augmentation for Skin Lesions](Generative-AI-%26-Agentic-Systems/skin-lesion-diffusion) | Tests whether Stable Diffusion images help a classifier recognize rare skin lesion types (learning project, not a diagnostic tool) | PyTorch, Hugging Face Diffusers, LoRA | Experiment set up; results pending |
 
 ## About me
 

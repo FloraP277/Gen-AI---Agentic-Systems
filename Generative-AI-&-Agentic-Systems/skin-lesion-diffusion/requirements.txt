@@ -1,0 +1,12 @@
+# Colab already has torch and torchvision. Elsewhere, install them for your GPU first.
+diffusers==0.31.0
+transformers>=4.46
+accelerate>=1.0
+peft>=0.13
+datasets>=2.20
+pandas>=2.1
+scikit-learn>=1.4
+pillow>=10
+matplotlib>=3.8
+tabulate>=0.9
+kaggle>=1.6
